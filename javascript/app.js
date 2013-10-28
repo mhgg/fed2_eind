@@ -35,7 +35,7 @@ var APP = APP || {};
 			});
 		},
 
-		change: function () {
+	change: function () {
             var route = window.location.hash.slice(2)
 			route = route.split("/")[0];
 			
@@ -55,7 +55,7 @@ var APP = APP || {};
             	sections[0].classList.add('active');
             }
 
-		}
+	}
 	};
 
 	// Pages
